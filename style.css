@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.bg-img{
+ background-image: url(./img/mosque7_generated12.png) ,url(./img/pngtree-islamic-decorations-flower-circle-png-image_68544911.png);
+ background-repeat: no-repeat;
+ background-position: right, left;
+ background-size: contain;
+}
+
+@media screen and (max-width: 480px){
+  .bg-img {
+    background-position: bottom, top    ;
+  }
+}
+@media screen and (max-width: 768px){
+  .bg-img {
+    background-position: bottom,top    ;
+  }
+}
+/* 
+.bg-img2{
+    background-image: ;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;    
+} */
